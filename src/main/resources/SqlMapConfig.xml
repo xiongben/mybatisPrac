@@ -14,9 +14,9 @@
             <dataSource type="POOLED">
                 <!-- 配置连接数据库的4个基本信息 -->
                 <property name="driver" value="com.mysql.jdbc.Driver"/>
-                <property name="url" value="jdbc:mysql://localhost:3306/spring"/>
+                <property name="url" value="jdbc:mysql://localhost:3306/petstore?useUnicode=yes&amp;characterEncoding=utf8&amp;useSSL=false"/>
                 <property name="username" value="root"/>
-                <property name="password" value="xB$12345678"/>
+                <property name="password" value="xb2010550918"/>
             </dataSource>
         </environment>
     </environments>

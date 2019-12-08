@@ -2,6 +2,7 @@ package com.xiongben.test;
 
 
 import com.xiongben.dao.IUserDao;
+import com.xiongben.dao.impl.UserDaoImpl;
 import com.xiongben.domain.User;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
@@ -16,13 +17,16 @@ public class MybatisTest {
         InputStream in = Resources.getResourceAsStream("SqlMapConfig.xml");
         SqlSessionFactoryBuilder builder = new SqlSessionFactoryBuilder();
         SqlSessionFactory factory = builder.build(in);
-        SqlSession session = factory.openSession();
-        IUserDao userDao = session.getMapper(IUserDao.class);
+//        SqlSession session = factory.openSession();
+//        IUserDao userDao = session.getMapper(IUserDao.class);
+
+        IUserDao userDao = new UserDaoImpl(factory);
+
         List<User> users = userDao.findAll();
         for (User user : users){
             System.out.println(user);
         }
-        session.close();
+//        session.close();
         in.close();
     }
 }
