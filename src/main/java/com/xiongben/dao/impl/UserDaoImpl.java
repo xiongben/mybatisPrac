@@ -20,4 +20,8 @@ public class UserDaoImpl implements IUserDao {
         session.close();
         return users;
     }
+
+    public void saveUser(User user) {
+
+    }
 }

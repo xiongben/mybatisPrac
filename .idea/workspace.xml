@@ -4,8 +4,14 @@
     <list default="true" id="380a910f-4385-47eb-ac68-727a712a4845" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/d:axis.log" beforeDir="false" afterPath="$PROJECT_DIR$/d:axis.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/SqlMapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/SqlMapConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SqlMapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SqlMapConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xiongben/dao/IUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiongben/dao/IUserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xiongben/dao/impl/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiongben/dao/impl/UserDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/xiongben/dao/IUserDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/xiongben/dao/IUserDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/xiongben/test/MybatisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/xiongben/test/MybatisTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xiongben/dao/IUserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xiongben/dao/IUserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xiongben/dao/IUserDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xiongben/dao/IUserDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xiongben/dao/impl/UserDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xiongben/dao/impl/UserDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/xiongben/test/MybatisTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/xiongben/test/MybatisTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +48,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.MybatisTest">
+  <component name="RunManager" selected="JUnit.MybatisTest.testsave">
     <configuration name="MybatisTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.xiongben.test.MybatisTest" />
       <module name="mybatisPrac" />
@@ -63,8 +69,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MybatisTest.testfindall" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatisPrac" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xiongben.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.xiongben.test" />
+      <option name="MAIN_CLASS_NAME" value="com.xiongben.test.MybatisTest" />
+      <option name="METHOD_NAME" value="testfindall" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisTest.testsave" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatisPrac" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xiongben.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.xiongben.test" />
+      <option name="MAIN_CLASS_NAME" value="com.xiongben.test.MybatisTest" />
+      <option name="METHOD_NAME" value="testsave" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MybatisTest.testsave" />
+        <item itemvalue="JUnit.MybatisTest.testfindall" />
         <item itemvalue="Application.MybatisTest" />
         <item itemvalue="Application.Xiong" />
       </list>
@@ -117,25 +157,25 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="404" y="115" key="#MybatisTest/-1920.-42.1920.1080/0.0.1440.900/1440.-42.1920.1080@0.0.1440.900" timestamp="1575858302295" />
-    <state width="1398" height="214" key="GridCell.Tab.0.bottom" timestamp="1575858307891">
+    <state width="1398" height="214" key="GridCell.Tab.0.bottom" timestamp="1576060189406">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="214" key="GridCell.Tab.0.bottom/-1920.-42.1920.1080/0.0.1440.900/1440.-42.1920.1080@0.0.1440.900" timestamp="1575858307891" />
+    <state width="1398" height="214" key="GridCell.Tab.0.bottom/-1920.-42.1920.1080/0.0.1440.900/1440.-42.1920.1080@0.0.1440.900" timestamp="1576060189406" />
     <state width="1398" height="186" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1575819780741" />
-    <state width="1398" height="214" key="GridCell.Tab.0.center" timestamp="1575858307889">
+    <state width="1398" height="214" key="GridCell.Tab.0.center" timestamp="1576060189404">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="214" key="GridCell.Tab.0.center/-1920.-42.1920.1080/0.0.1440.900/1440.-42.1920.1080@0.0.1440.900" timestamp="1575858307889" />
+    <state width="1398" height="214" key="GridCell.Tab.0.center/-1920.-42.1920.1080/0.0.1440.900/1440.-42.1920.1080@0.0.1440.900" timestamp="1576060189404" />
     <state width="1398" height="186" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1575819780740" />
-    <state width="1398" height="214" key="GridCell.Tab.0.left" timestamp="1575858307888">
+    <state width="1398" height="214" key="GridCell.Tab.0.left" timestamp="1576060189403">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="214" key="GridCell.Tab.0.left/-1920.-42.1920.1080/0.0.1440.900/1440.-42.1920.1080@0.0.1440.900" timestamp="1575858307888" />
+    <state width="1398" height="214" key="GridCell.Tab.0.left/-1920.-42.1920.1080/0.0.1440.900/1440.-42.1920.1080@0.0.1440.900" timestamp="1576060189403" />
     <state width="1398" height="186" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1575819780739" />
-    <state width="1398" height="214" key="GridCell.Tab.0.right" timestamp="1575858307890">
+    <state width="1398" height="214" key="GridCell.Tab.0.right" timestamp="1576060189405">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="214" key="GridCell.Tab.0.right/-1920.-42.1920.1080/0.0.1440.900/1440.-42.1920.1080@0.0.1440.900" timestamp="1575858307890" />
+    <state width="1398" height="214" key="GridCell.Tab.0.right/-1920.-42.1920.1080/0.0.1440.900/1440.-42.1920.1080@0.0.1440.900" timestamp="1576060189405" />
     <state width="1398" height="186" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1575819780740" />
     <state x="229" y="89" key="SettingsEditor" timestamp="1575729265138">
       <screen x="0" y="0" width="1440" height="900" />
@@ -145,5 +185,9 @@
       <screen x="0" y="23" width="1440" height="806" />
     </state>
     <state x="376" y="260" key="com.intellij.ide.util.TipDialog/0.23.1440.806@0.23.1440.806" timestamp="1575649920275" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1576056339728">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/-1920.-42.1920.1080/0.0.1440.900/1440.-42.1920.1080@0.0.1440.900" timestamp="1576056339728" />
   </component>
 </project>
