@@ -46,30 +46,10 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
-  <component name="RunManager" selected="JUnit.MybatisTest.testsave">
-    <configuration name="MybatisTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xiongben.test.MybatisTest" />
-      <module name="mybatisPrac" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xiongben.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Xiong" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Xiong" />
-      <module name="java_learn" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MybatisTest.testfindall" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MybatisTest.testfindaccount">
+    <configuration name="MybatisTest.testdelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatisPrac" />
       <extension name="coverage">
         <pattern>
@@ -79,13 +59,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.xiongben.test" />
       <option name="MAIN_CLASS_NAME" value="com.xiongben.test.MybatisTest" />
-      <option name="METHOD_NAME" value="testfindall" />
+      <option name="METHOD_NAME" value="testdelete" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MybatisTest.testsave" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MybatisTest.testfindByName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatisPrac" />
       <extension name="coverage">
         <pattern>
@@ -95,7 +75,55 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.xiongben.test" />
       <option name="MAIN_CLASS_NAME" value="com.xiongben.test.MybatisTest" />
-      <option name="METHOD_NAME" value="testsave" />
+      <option name="METHOD_NAME" value="testfindByName" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisTest.testfindByid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatisPrac" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xiongben.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.xiongben.test" />
+      <option name="MAIN_CLASS_NAME" value="com.xiongben.test.MybatisTest" />
+      <option name="METHOD_NAME" value="testfindByid" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisTest.testfindaccount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatisPrac" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xiongben.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.xiongben.test" />
+      <option name="MAIN_CLASS_NAME" value="com.xiongben.test.MybatisTest" />
+      <option name="METHOD_NAME" value="testfindaccount" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisTest.testupdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatisPrac" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xiongben.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.xiongben.test" />
+      <option name="MAIN_CLASS_NAME" value="com.xiongben.test.MybatisTest" />
+      <option name="METHOD_NAME" value="testupdate" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -103,10 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MybatisTest.testsave" />
-        <item itemvalue="JUnit.MybatisTest.testfindall" />
-        <item itemvalue="Application.MybatisTest" />
-        <item itemvalue="Application.Xiong" />
+        <item itemvalue="JUnit.MybatisTest.testfindaccount" />
+        <item itemvalue="JUnit.MybatisTest.testfindByName" />
+        <item itemvalue="JUnit.MybatisTest.testfindByid" />
+        <item itemvalue="JUnit.MybatisTest.testdelete" />
+        <item itemvalue="JUnit.MybatisTest.testupdate" />
       </list>
     </recent_temporary>
   </component>
@@ -157,37 +186,38 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="404" y="115" key="#MybatisTest/-1920.-42.1920.1080/0.0.1440.900/1440.-42.1920.1080@0.0.1440.900" timestamp="1575858302295" />
-    <state width="1398" height="214" key="GridCell.Tab.0.bottom" timestamp="1576060189406">
+    <state width="1398" height="214" key="GridCell.Tab.0.bottom" timestamp="1576124690021">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="214" key="GridCell.Tab.0.bottom/-1920.-42.1920.1080/0.0.1440.900/1440.-42.1920.1080@0.0.1440.900" timestamp="1576060189406" />
+    <state width="1398" height="214" key="GridCell.Tab.0.bottom/-1920.-42.1920.1080/0.0.1440.900/1440.-42.1920.1080@0.0.1440.900" timestamp="1576124690021" />
     <state width="1398" height="186" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1575819780741" />
-    <state width="1398" height="214" key="GridCell.Tab.0.center" timestamp="1576060189404">
+    <state width="1398" height="214" key="GridCell.Tab.0.center" timestamp="1576124690019">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="214" key="GridCell.Tab.0.center/-1920.-42.1920.1080/0.0.1440.900/1440.-42.1920.1080@0.0.1440.900" timestamp="1576060189404" />
+    <state width="1398" height="214" key="GridCell.Tab.0.center/-1920.-42.1920.1080/0.0.1440.900/1440.-42.1920.1080@0.0.1440.900" timestamp="1576124690019" />
     <state width="1398" height="186" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1575819780740" />
-    <state width="1398" height="214" key="GridCell.Tab.0.left" timestamp="1576060189403">
+    <state width="1398" height="214" key="GridCell.Tab.0.left" timestamp="1576124690017">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="214" key="GridCell.Tab.0.left/-1920.-42.1920.1080/0.0.1440.900/1440.-42.1920.1080@0.0.1440.900" timestamp="1576060189403" />
+    <state width="1398" height="214" key="GridCell.Tab.0.left/-1920.-42.1920.1080/0.0.1440.900/1440.-42.1920.1080@0.0.1440.900" timestamp="1576124690017" />
     <state width="1398" height="186" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1575819780739" />
-    <state width="1398" height="214" key="GridCell.Tab.0.right" timestamp="1576060189405">
+    <state width="1398" height="214" key="GridCell.Tab.0.right" timestamp="1576124690020">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="214" key="GridCell.Tab.0.right/-1920.-42.1920.1080/0.0.1440.900/1440.-42.1920.1080@0.0.1440.900" timestamp="1576060189405" />
+    <state width="1398" height="214" key="GridCell.Tab.0.right/-1920.-42.1920.1080/0.0.1440.900/1440.-42.1920.1080@0.0.1440.900" timestamp="1576124690020" />
     <state width="1398" height="186" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1575819780740" />
-    <state x="229" y="89" key="SettingsEditor" timestamp="1575729265138">
+    <state x="126" y="78" key="SettingsEditor" timestamp="1576124362727">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="126" y="78" key="SettingsEditor/-1920.-42.1920.1080/0.0.1440.900/1440.-42.1920.1080@0.0.1440.900" timestamp="1576124362727" />
     <state x="229" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1575729265138" />
     <state x="376" y="260" key="com.intellij.ide.util.TipDialog" timestamp="1575649920275">
       <screen x="0" y="23" width="1440" height="806" />
     </state>
     <state x="376" y="260" key="com.intellij.ide.util.TipDialog/0.23.1440.806@0.23.1440.806" timestamp="1575649920275" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1576056339728">
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1576123193254">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/-1920.-42.1920.1080/0.0.1440.900/1440.-42.1920.1080@0.0.1440.900" timestamp="1576056339728" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/-1920.-42.1920.1080/0.0.1440.900/1440.-42.1920.1080@0.0.1440.900" timestamp="1576123193254" />
   </component>
 </project>

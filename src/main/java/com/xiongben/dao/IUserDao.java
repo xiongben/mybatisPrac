@@ -13,4 +13,23 @@ public interface IUserDao {
     * 保存用户
     * */
     void saveUser(User user);
+
+    void updateUser(User user);
+
+    void deleteUser(Integer userId);
+
+    User findById(Integer userId);
+
+    /**
+     * 名字模糊查找
+     * @param username
+     * @return
+     */
+    List<User> findByName(String username);
+
+    /**
+     * 查询总用户数
+     * @return
+     */
+    int findTotal();
 }

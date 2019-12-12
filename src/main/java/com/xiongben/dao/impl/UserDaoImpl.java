@@ -7,7 +7,7 @@ import org.apache.ibatis.session.SqlSessionFactory;
 
 import java.util.List;
 
-public class UserDaoImpl implements IUserDao {
+public class UserDaoImpl  {
     private SqlSessionFactory factory;
 
     public  UserDaoImpl(SqlSessionFactory factory){

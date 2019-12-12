@@ -38,20 +38,20 @@ public class MybatisTest {
     }
 
     public static void main(String[] args)throws Exception {
-        InputStream in = Resources.getResourceAsStream("SqlMapConfig.xml");
-        SqlSessionFactoryBuilder builder = new SqlSessionFactoryBuilder();
-        SqlSessionFactory factory = builder.build(in);
+//        InputStream in = Resources.getResourceAsStream("SqlMapConfig.xml");
+//        SqlSessionFactoryBuilder builder = new SqlSessionFactoryBuilder();
+//        SqlSessionFactory factory = builder.build(in);
 //        SqlSession session = factory.openSession();
 //        IUserDao userDao = session.getMapper(IUserDao.class);
 
-        IUserDao userDao = new UserDaoImpl(factory);
-
-        List<User> users = userDao.findAll();
-        for (User user : users){
-            System.out.println(user);
-        }
+//        IUserDao userDao = new UserDaoImpl(factory);
+//
+//        List<User> users = userDao.findAll();
+//        for (User user : users){
+//            System.out.println(user);
+//        }
 //        session.close();
-        in.close();
+//        in.close();
     }
 
     @Test
@@ -72,5 +72,45 @@ public class MybatisTest {
         user.setBirthday(new Date());
         userDao.saveUser(user);
 
+    }
+
+    @Test
+    public void testupdate(){
+        User user = new User();
+        user.setId(49);
+        user.setUsername("宇智波佐助");
+        user.setAddress("火影村");
+        user.setSex("男");
+        user.setBirthday(new Date());
+        userDao.updateUser(user);
+
+    }
+
+    @Test
+    public void testdelete(){
+        userDao.deleteUser(48);
+    }
+
+    @Test
+    public void testfindByid(){
+        User user = userDao.findById(49);
+        System.out.println(user);
+    }
+
+    @Test
+    public void testfindByName(){
+        List<User> users = userDao.findByName("%王%");
+        for (User user : users){
+            System.out.println(user);
+        }
+    }
+
+    /**
+     * 测试查询总数据条数
+     */
+    @Test
+    public void testfindaccount(){
+        int count = userDao.findTotal();
+        System.out.println(count);
     }
 }
