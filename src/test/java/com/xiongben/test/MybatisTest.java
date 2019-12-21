@@ -3,6 +3,7 @@ package com.xiongben.test;
 
 import com.xiongben.dao.IUserDao;
 import com.xiongben.dao.impl.UserDaoImpl;
+import com.xiongben.domain.QueryVo;
 import com.xiongben.domain.User;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
@@ -98,7 +99,7 @@ public class MybatisTest {
     }
 
     @Test
-    public void testfindByName(){
+    public void testfindByNames(){
         List<User> users = userDao.findByName("%王%");
         for (User user : users){
             System.out.println(user);
@@ -109,8 +110,20 @@ public class MybatisTest {
      * 测试查询总数据条数
      */
     @Test
-    public void testfindaccount(){
+    public void testfindaccounts(){
         int count = userDao.findTotal();
         System.out.println(count);
+    }
+
+    @Test
+    public void testfindByVo(){
+        QueryVo vo = new QueryVo();
+        User userp = new User();
+        userp.setUsername("%齐木%");
+        vo.setUser(userp);
+        List<User> users = userDao.findUserByVo(vo);
+        for (User user : users){
+            System.out.println(user);
+        }
     }
 }

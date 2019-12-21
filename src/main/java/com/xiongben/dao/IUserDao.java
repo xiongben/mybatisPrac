@@ -1,5 +1,6 @@
 package com.xiongben.dao;
 
+import com.xiongben.domain.QueryVo;
 import com.xiongben.domain.User;
 import org.apache.ibatis.annotations.Select;
 
@@ -32,4 +33,11 @@ public interface IUserDao {
      * @return
      */
     int findTotal();
+
+    /**
+     * 根据queryVo中的条件查询用户
+     * @param vo
+     * @return
+     */
+    List<User> findUserByVo(QueryVo vo);
 }
