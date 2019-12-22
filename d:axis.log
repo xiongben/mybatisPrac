@@ -594,3 +594,67 @@
 2019-12-21 22:44:31,871 418    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@6043cd28]
 2019-12-21 22:44:31,871 418    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@6043cd28]
 2019-12-21 22:44:31,872 419    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1615056168 to pool.
+2019-12-22 22:56:08,585 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-12-22 22:56:08,673 88     [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2019-12-22 22:56:08,674 89     [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2019-12-22 22:56:08,674 89     [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2019-12-22 22:56:08,674 89     [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2019-12-22 22:56:08,675 90     [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2019-12-22 22:56:08,675 90     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiongben/IdeaProjects/java_learn/target/classes/com/xiongben/domain
+2019-12-22 22:56:08,675 90     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiongben/IdeaProjects/java_learn/target/classes/com/xiongben/domain
+2019-12-22 22:56:08,712 127    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: QueryVo.class
+2019-12-22 22:56:08,713 128    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: User.class
+2019-12-22 22:56:08,713 128    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/Users/xiongben/IdeaProjects/java_learn/target/classes/com/xiongben/domain
+2019-12-22 22:56:08,713 128    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiongben/IdeaProjects/java_learn/target/classes/com/xiongben/domain/QueryVo.class
+2019-12-22 22:56:08,713 128    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiongben/IdeaProjects/java_learn/target/classes/com/xiongben/domain/QueryVo.class
+2019-12-22 22:56:08,714 129    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 %
+2019-12-22 22:56:08,714 129    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiongben/IdeaProjects/java_learn/target/classes/com/xiongben/domain/User.class
+2019-12-22 22:56:08,714 129    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiongben/IdeaProjects/java_learn/target/classes/com/xiongben/domain/User.class
+2019-12-22 22:56:08,714 129    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 N
+2019-12-22 22:56:08,715 130    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.xiongben.domain.QueryVo matches criteria [is assignable to Object]
+2019-12-22 22:56:08,715 130    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.xiongben.domain.User matches criteria [is assignable to Object]
+2019-12-22 22:56:08,742 157    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-12-22 22:56:08,742 157    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-12-22 22:56:08,742 157    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-12-22 22:56:08,742 157    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-12-22 22:56:08,859 274    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-12-22 22:56:09,145 560    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 22069592.
+2019-12-22 22:56:09,146 561    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@150c158]
+2019-12-22 22:56:09,148 563    [           main] DEBUG o.IUserDao.findUserByCondition  - ==>  Preparing: select * from user WHERE username = ? and sex = ? 
+2019-12-22 22:56:09,171 586    [           main] DEBUG o.IUserDao.findUserByCondition  - ==> Parameters: 老王(String), 男(String)
+2019-12-22 22:56:09,194 609    [           main] DEBUG o.IUserDao.findUserByCondition  - <==      Total: 2
+2019-12-22 22:56:09,199 614    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@150c158]
+2019-12-22 22:56:09,200 615    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@150c158]
+2019-12-22 22:56:09,200 615    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 22069592 to pool.
+2019-12-22 22:59:35,383 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-12-22 22:59:35,435 52     [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2019-12-22 22:59:35,436 53     [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2019-12-22 22:59:35,436 53     [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2019-12-22 22:59:35,436 53     [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2019-12-22 22:59:35,437 54     [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2019-12-22 22:59:35,437 54     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiongben/IdeaProjects/java_learn/target/classes/com/xiongben/domain
+2019-12-22 22:59:35,437 54     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiongben/IdeaProjects/java_learn/target/classes/com/xiongben/domain
+2019-12-22 22:59:35,468 85     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: QueryVo.class
+2019-12-22 22:59:35,468 85     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: User.class
+2019-12-22 22:59:35,468 85     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/Users/xiongben/IdeaProjects/java_learn/target/classes/com/xiongben/domain
+2019-12-22 22:59:35,468 85     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiongben/IdeaProjects/java_learn/target/classes/com/xiongben/domain/QueryVo.class
+2019-12-22 22:59:35,468 85     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiongben/IdeaProjects/java_learn/target/classes/com/xiongben/domain/QueryVo.class
+2019-12-22 22:59:35,469 86     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 %
+2019-12-22 22:59:35,469 86     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiongben/IdeaProjects/java_learn/target/classes/com/xiongben/domain/User.class
+2019-12-22 22:59:35,469 86     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiongben/IdeaProjects/java_learn/target/classes/com/xiongben/domain/User.class
+2019-12-22 22:59:35,469 86     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 N
+2019-12-22 22:59:35,470 87     [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.xiongben.domain.QueryVo matches criteria [is assignable to Object]
+2019-12-22 22:59:35,470 87     [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.xiongben.domain.User matches criteria [is assignable to Object]
+2019-12-22 22:59:35,490 107    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-12-22 22:59:35,490 107    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-12-22 22:59:35,490 107    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-12-22 22:59:35,490 107    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-12-22 22:59:35,590 207    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-12-22 22:59:35,793 410    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1684015092.
+2019-12-22 22:59:35,793 410    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@646007f4]
+2019-12-22 22:59:35,795 412    [           main] DEBUG ben.dao.IUserDao.findUserInIds  - ==>  Preparing: select * from user WHERE id in ( ? , ? , ? ) 
+2019-12-22 22:59:35,825 442    [           main] DEBUG ben.dao.IUserDao.findUserInIds  - ==> Parameters: 41(Integer), 42(Integer), 46(Integer)
+2019-12-22 22:59:35,851 468    [           main] DEBUG ben.dao.IUserDao.findUserInIds  - <==      Total: 3
+2019-12-22 22:59:35,854 471    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@646007f4]
+2019-12-22 22:59:35,855 472    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@646007f4]
+2019-12-22 22:59:35,855 472    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1684015092 to pool.
