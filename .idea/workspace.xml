@@ -3,15 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="380a910f-4385-47eb-ac68-727a712a4845" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/d:axis.log" beforeDir="false" afterPath="$PROJECT_DIR$/d:axis.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xiongben/dao/IUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiongben/dao/IUserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xiongben/domain/QueryVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiongben/domain/QueryVo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/xiongben/dao/IUserDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/xiongben/dao/IUserDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/xiongben/test/MybatisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/xiongben/test/MybatisTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xiongben/dao/IUserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xiongben/dao/IUserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xiongben/dao/IUserDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xiongben/dao/IUserDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xiongben/domain/QueryVo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xiongben/domain/QueryVo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/xiongben/test/MybatisTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/xiongben/test/MybatisTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SqlMapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/SqlMapConfig.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +16,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
+        <option value="FxmlFile" />
       </list>
     </option>
   </component>
@@ -198,10 +192,10 @@
     </state>
     <state x="295" y="95" key="#MybatisTest.testfindaccount/0.0.1440.900@0.0.1440.900" timestamp="1576938736904" />
     <state x="404" y="115" key="#MybatisTest/-1920.-42.1920.1080/0.0.1440.900/1440.-42.1920.1080@0.0.1440.900" timestamp="1575858302295" />
-    <state x="533" y="141" key="#com.intellij.ide.util.MemberChooser" timestamp="1577026258208">
+    <state x="533" y="141" key="#com.intellij.ide.util.MemberChooser" timestamp="1577112520484">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="533" y="141" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1577026258208" />
+    <state x="533" y="141" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1577112520484" />
     <state width="1398" height="237" key="GridCell.Tab.0.bottom" timestamp="1577026775129">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
