@@ -1,8 +1,10 @@
 package com.xiongben.test;
 
 
+import com.xiongben.dao.IAccountDao;
 import com.xiongben.dao.IUserDao;
 import com.xiongben.dao.impl.UserDaoImpl;
+import com.xiongben.domain.Account;
 import com.xiongben.domain.QueryVo;
 import com.xiongben.domain.User;
 import org.apache.ibatis.io.Resources;
@@ -22,6 +24,7 @@ public class MybatisTest {
     private InputStream in;
     private SqlSession session;
     private IUserDao userDao;
+    private IAccountDao accountDao;
 
     @Before
     public void init()throws Exception{
@@ -30,6 +33,7 @@ public class MybatisTest {
         SqlSessionFactory factory = builder.build(in);
         session = factory.openSession();
         userDao = session.getMapper(IUserDao.class);
+        accountDao = session.getMapper(IAccountDao.class);
     }
 
     @After
@@ -150,6 +154,24 @@ public class MybatisTest {
         List<User> users = userDao.findUserInIds(vo);
         for (User user : users){
             System.out.println(user);
+        }
+    }
+
+    @Test
+    public void  testFindAll2(){
+        List<Account> accounts = accountDao.findAll();
+        for (Account account : accounts){
+            System.out.println(account);
+            System.out.println(account.getUser());
+        }
+    }
+
+    @Test
+    public void testfindAll3(){
+        List<User> users = userDao.findAll();
+        for (User user : users){
+            System.out.println(user);
+            System.out.println(user.getAccounts());
         }
     }
 }

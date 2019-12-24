@@ -3,7 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="380a910f-4385-47eb-ac68-727a712a4845" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/SqlMapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/SqlMapConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/d:axis.log" beforeDir="false" afterPath="$PROJECT_DIR$/d:axis.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xiongben/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiongben/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/xiongben/dao/IAccountDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/xiongben/dao/IAccountDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/xiongben/dao/IUserDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/xiongben/dao/IUserDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/xiongben/test/MybatisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/xiongben/test/MybatisTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SqlMapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SqlMapConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xiongben/dao/IUserDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xiongben/dao/IUserDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xiongben/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xiongben/domain/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/xiongben/test/MybatisTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/xiongben/test/MybatisTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +50,23 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
-  <component name="RunManager" selected="JUnit.MybatisTest.testFindByIds">
+  <component name="RunManager" selected="JUnit.MybatisTest.testfindAll3">
+    <configuration name="MybatisTest.testFindAll2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java_learn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xiongben.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.xiongben.test" />
+      <option name="MAIN_CLASS_NAME" value="com.xiongben.test.MybatisTest" />
+      <option name="METHOD_NAME" value="testFindAll2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MybatisTest.testFindByCondition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java_learn" />
       <extension name="coverage">
@@ -75,7 +99,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MybatisTest.testfindByNames" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MybatisTest.testfindAll3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java_learn" />
       <extension name="coverage">
         <pattern>
@@ -85,7 +109,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.xiongben.test" />
       <option name="MAIN_CLASS_NAME" value="com.xiongben.test.MybatisTest" />
-      <option name="METHOD_NAME" value="testfindByNames" />
+      <option name="METHOD_NAME" value="testfindAll3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -107,29 +131,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MybatisTest.testfindaccounts" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java_learn" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xiongben.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.xiongben.test" />
-      <option name="MAIN_CLASS_NAME" value="com.xiongben.test.MybatisTest" />
-      <option name="METHOD_NAME" value="testfindaccounts" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MybatisTest.testfindAll3" />
+        <item itemvalue="JUnit.MybatisTest.testFindAll2" />
         <item itemvalue="JUnit.MybatisTest.testFindByIds" />
         <item itemvalue="JUnit.MybatisTest.testFindByCondition" />
         <item itemvalue="JUnit.MybatisTest.testfindByVo" />
-        <item itemvalue="JUnit.MybatisTest.testfindByNames" />
-        <item itemvalue="JUnit.MybatisTest.testfindaccounts" />
       </list>
     </recent_temporary>
   </component>
@@ -192,30 +200,30 @@
     </state>
     <state x="295" y="95" key="#MybatisTest.testfindaccount/0.0.1440.900@0.0.1440.900" timestamp="1576938736904" />
     <state x="404" y="115" key="#MybatisTest/-1920.-42.1920.1080/0.0.1440.900/1440.-42.1920.1080@0.0.1440.900" timestamp="1575858302295" />
-    <state x="533" y="141" key="#com.intellij.ide.util.MemberChooser" timestamp="1577112520484">
+    <state x="533" y="141" key="#com.intellij.ide.util.MemberChooser" timestamp="1577187536874">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="533" y="141" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1577112520484" />
-    <state width="1398" height="237" key="GridCell.Tab.0.bottom" timestamp="1577026775129">
+    <state x="533" y="141" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1577187536874" />
+    <state width="1398" height="237" key="GridCell.Tab.0.bottom" timestamp="1577187564653">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="214" key="GridCell.Tab.0.bottom/-1920.-42.1920.1080/0.0.1440.900/1440.-42.1920.1080@0.0.1440.900" timestamp="1576124690021" />
-    <state width="1398" height="237" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1577026775129" />
-    <state width="1398" height="237" key="GridCell.Tab.0.center" timestamp="1577026775128">
+    <state width="1398" height="237" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1577187564653" />
+    <state width="1398" height="237" key="GridCell.Tab.0.center" timestamp="1577187564652">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="214" key="GridCell.Tab.0.center/-1920.-42.1920.1080/0.0.1440.900/1440.-42.1920.1080@0.0.1440.900" timestamp="1576124690019" />
-    <state width="1398" height="237" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1577026775128" />
-    <state width="1398" height="237" key="GridCell.Tab.0.left" timestamp="1577026775128">
+    <state width="1398" height="237" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1577187564652" />
+    <state width="1398" height="237" key="GridCell.Tab.0.left" timestamp="1577187564652">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="214" key="GridCell.Tab.0.left/-1920.-42.1920.1080/0.0.1440.900/1440.-42.1920.1080@0.0.1440.900" timestamp="1576124690017" />
-    <state width="1398" height="237" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1577026775128" />
-    <state width="1398" height="237" key="GridCell.Tab.0.right" timestamp="1577026775129">
+    <state width="1398" height="237" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1577187564652" />
+    <state width="1398" height="237" key="GridCell.Tab.0.right" timestamp="1577187564653">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="214" key="GridCell.Tab.0.right/-1920.-42.1920.1080/0.0.1440.900/1440.-42.1920.1080@0.0.1440.900" timestamp="1576124690020" />
-    <state width="1398" height="237" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1577026775129" />
+    <state width="1398" height="237" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1577187564653" />
     <state x="126" y="78" key="SettingsEditor" timestamp="1576124362727">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
