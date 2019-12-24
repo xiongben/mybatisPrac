@@ -22,6 +22,21 @@
             <result property="uid" column="uid"></result>
             <result property="money" column="money"></result>
         </collection>
+
+
+    </resultMap>
+
+    <resultMap id="userRoleMap" type="user">
+        <id property="id" column="id"></id>
+        <result property="username" column="username"></result>
+        <result property="address" column="address"></result>
+        <result property="sex" column="sex"></result>
+        <result property="birthday" column="birthday"></result>
+        <collection property="roles" ofType="role">
+            <id property="roleId" column="rid"></id>
+            <result property="roleName" column="role_name"></result>
+            <result property="roleDesc" column="role_desc"></result>
+        </collection>
     </resultMap>
 
     <!--    抽取重复的sql语句-->
@@ -29,8 +44,9 @@
         select * from user
     </sql>
     <!--配置查询所有-->
-    <select id="findAll" resultMap="userAccountMap">
-        select * from user u left outer join account a on u.id = a.uid
+    <select id="findAll" resultMap="userRoleMap">
+        select u.*,r.id as rid,r.role_name,r.role_desc from user u left outer join user_role ur on u.id = ur.uid
+          left outer join role r on r.id = ur.rid
     </select>
 
 <!--    保存用户-->

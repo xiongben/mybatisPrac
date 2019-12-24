@@ -2,10 +2,12 @@ package com.xiongben.test;
 
 
 import com.xiongben.dao.IAccountDao;
+import com.xiongben.dao.IRoleDao;
 import com.xiongben.dao.IUserDao;
 import com.xiongben.dao.impl.UserDaoImpl;
 import com.xiongben.domain.Account;
 import com.xiongben.domain.QueryVo;
+import com.xiongben.domain.Role;
 import com.xiongben.domain.User;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
@@ -25,6 +27,7 @@ public class MybatisTest {
     private SqlSession session;
     private IUserDao userDao;
     private IAccountDao accountDao;
+    private IRoleDao roleDao;
 
     @Before
     public void init()throws Exception{
@@ -34,6 +37,7 @@ public class MybatisTest {
         session = factory.openSession();
         userDao = session.getMapper(IUserDao.class);
         accountDao = session.getMapper(IAccountDao.class);
+        roleDao = session.getMapper(IRoleDao.class);
     }
 
     @After
@@ -171,7 +175,17 @@ public class MybatisTest {
         List<User> users = userDao.findAll();
         for (User user : users){
             System.out.println(user);
-            System.out.println(user.getAccounts());
+            System.out.println(user.getRoles());
+        }
+    }
+
+    @Test
+    public void testRoleFindAll(){
+        List<Role> roles = roleDao.findAll();
+        for(Role role : roles){
+            System.out.println("======每个角色信息========");
+            System.out.println(role);
+            System.out.println(role.getUsers());
         }
     }
 }
