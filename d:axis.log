@@ -1089,3 +1089,159 @@
 2019-12-24 19:39:25,369 451    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@74ad1f1f]
 2019-12-24 19:39:25,370 452    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@74ad1f1f]
 2019-12-24 19:39:25,370 452    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1957502751 to pool.
+2019-12-24 21:57:44,502 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-12-24 21:57:44,558 56     [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2019-12-24 21:57:44,558 56     [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2019-12-24 21:57:44,559 57     [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2019-12-24 21:57:44,559 57     [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2019-12-24 21:57:44,559 57     [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2019-12-24 21:57:44,560 58     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiongben/IdeaProjects/java_learn/target/classes/com/xiongben/domain
+2019-12-24 21:57:44,560 58     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiongben/IdeaProjects/java_learn/target/classes/com/xiongben/domain
+2019-12-24 21:57:44,589 87     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Account.class
+2019-12-24 21:57:44,589 87     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: AccountUser.class
+2019-12-24 21:57:44,589 87     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: QueryVo.class
+2019-12-24 21:57:44,589 87     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: User.class
+2019-12-24 21:57:44,589 87     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/Users/xiongben/IdeaProjects/java_learn/target/classes/com/xiongben/domain
+2019-12-24 21:57:44,589 87     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiongben/IdeaProjects/java_learn/target/classes/com/xiongben/domain/Account.class
+2019-12-24 21:57:44,589 87     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiongben/IdeaProjects/java_learn/target/classes/com/xiongben/domain/Account.class
+2019-12-24 21:57:44,590 88     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 F
+2019-12-24 21:57:44,590 88     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiongben/IdeaProjects/java_learn/target/classes/com/xiongben/domain/AccountUser.class
+2019-12-24 21:57:44,590 88     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiongben/IdeaProjects/java_learn/target/classes/com/xiongben/domain/AccountUser.class
+2019-12-24 21:57:44,590 88     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 .
+2019-12-24 21:57:44,590 88     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiongben/IdeaProjects/java_learn/target/classes/com/xiongben/domain/QueryVo.class
+2019-12-24 21:57:44,591 89     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiongben/IdeaProjects/java_learn/target/classes/com/xiongben/domain/QueryVo.class
+2019-12-24 21:57:44,591 89     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 %
+2019-12-24 21:57:44,591 89     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiongben/IdeaProjects/java_learn/target/classes/com/xiongben/domain/User.class
+2019-12-24 21:57:44,591 89     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiongben/IdeaProjects/java_learn/target/classes/com/xiongben/domain/User.class
+2019-12-24 21:57:44,592 90     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 [
+2019-12-24 21:57:44,592 90     [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.xiongben.domain.Account matches criteria [is assignable to Object]
+2019-12-24 21:57:44,592 90     [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.xiongben.domain.AccountUser matches criteria [is assignable to Object]
+2019-12-24 21:57:44,592 90     [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.xiongben.domain.QueryVo matches criteria [is assignable to Object]
+2019-12-24 21:57:44,593 91     [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.xiongben.domain.User matches criteria [is assignable to Object]
+2019-12-24 21:57:44,613 111    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-12-24 21:57:44,613 111    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-12-24 21:57:44,614 112    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-12-24 21:57:44,614 112    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-12-24 21:57:44,615 113    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiongben/IdeaProjects/java_learn/target/classes/com/xiongben/dao
+2019-12-24 21:57:44,615 113    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiongben/IdeaProjects/java_learn/target/classes/com/xiongben/dao
+2019-12-24 21:57:44,616 114    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IAccountDao.class
+2019-12-24 21:57:44,616 114    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IAccountDao.xml
+2019-12-24 21:57:44,616 114    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: impl
+2019-12-24 21:57:44,616 114    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.class
+2019-12-24 21:57:44,616 114    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.xml
+2019-12-24 21:57:44,617 115    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/Users/xiongben/IdeaProjects/java_learn/target/classes/com/xiongben/dao
+2019-12-24 21:57:44,617 115    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiongben/IdeaProjects/java_learn/target/classes/com/xiongben/dao/IAccountDao.class
+2019-12-24 21:57:44,617 115    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiongben/IdeaProjects/java_learn/target/classes/com/xiongben/dao/IAccountDao.class
+2019-12-24 21:57:44,617 115    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 
+2019-12-24 21:57:44,617 115    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiongben/IdeaProjects/java_learn/target/classes/com/xiongben/dao/IAccountDao.xml
+2019-12-24 21:57:44,617 115    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiongben/IdeaProjects/java_learn/target/classes/com/xiongben/dao/IAccountDao.xml
+2019-12-24 21:57:44,617 115    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2019-12-24 21:57:44,617 115    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiongben/IdeaProjects/java_learn/target/classes/com/xiongben/dao/impl
+2019-12-24 21:57:44,618 116    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiongben/IdeaProjects/java_learn/target/classes/com/xiongben/dao/impl
+2019-12-24 21:57:44,618 116    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: UserDaoImpl.class
+2019-12-24 21:57:44,618 116    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/Users/xiongben/IdeaProjects/java_learn/target/classes/com/xiongben/dao/impl
+2019-12-24 21:57:44,618 116    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiongben/IdeaProjects/java_learn/target/classes/com/xiongben/dao/impl/UserDaoImpl.class
+2019-12-24 21:57:44,618 116    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiongben/IdeaProjects/java_learn/target/classes/com/xiongben/dao/impl/UserDaoImpl.class
+2019-12-24 21:57:44,618 116    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 4
+2019-12-24 21:57:44,618 116    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiongben/IdeaProjects/java_learn/target/classes/com/xiongben/dao/IUserDao.class
+2019-12-24 21:57:44,618 116    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiongben/IdeaProjects/java_learn/target/classes/com/xiongben/dao/IUserDao.class
+2019-12-24 21:57:44,619 117    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1    findAll ()Ljava/util/List; 	Signature .()Ljava/util/List<Lcom/xiongben/domain/User;>; saveUser (Lcom/xiongben/domain/User;)V 
+2019-12-24 21:57:44,619 117    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiongben/IdeaProjects/java_learn/target/classes/com/xiongben/dao/IUserDao.xml
+2019-12-24 21:57:44,619 117    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiongben/IdeaProjects/java_learn/target/classes/com/xiongben/dao/IUserDao.xml
+2019-12-24 21:57:44,619 117    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2019-12-24 21:57:44,619 117    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.xiongben.dao.IAccountDao matches criteria [is assignable to Object]
+2019-12-24 21:57:44,619 117    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.xiongben.dao.impl.UserDaoImpl matches criteria [is assignable to Object]
+2019-12-24 21:57:44,619 117    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.xiongben.dao.IUserDao matches criteria [is assignable to Object]
+2019-12-24 21:57:44,700 198    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-12-24 21:57:44,899 397    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1957502751.
+2019-12-24 21:57:44,900 398    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@74ad1f1f]
+2019-12-24 21:57:44,901 399    [           main] DEBUG ongben.dao.IAccountDao.findAll  - ==>  Preparing: select u.*,a.id as aid,a.uid,a.money from account a,user u where u.id = a.uid 
+2019-12-24 21:57:44,923 421    [           main] DEBUG ongben.dao.IAccountDao.findAll  - ==> Parameters: 
+2019-12-24 21:57:44,941 439    [           main] DEBUG xiongben.dao.IUserDao.findById  - ====>  Preparing: select * from user where id = ? 
+2019-12-24 21:57:44,941 439    [           main] DEBUG xiongben.dao.IUserDao.findById  - ====> Parameters: 41(Integer)
+2019-12-24 21:57:44,947 445    [           main] DEBUG xiongben.dao.IUserDao.findById  - <====      Total: 1
+2019-12-24 21:57:44,948 446    [           main] DEBUG xiongben.dao.IUserDao.findById  - ====>  Preparing: select * from user where id = ? 
+2019-12-24 21:57:44,948 446    [           main] DEBUG xiongben.dao.IUserDao.findById  - ====> Parameters: 45(Integer)
+2019-12-24 21:57:44,949 447    [           main] DEBUG xiongben.dao.IUserDao.findById  - <====      Total: 1
+2019-12-24 21:57:44,949 447    [           main] DEBUG ongben.dao.IAccountDao.findAll  - <==      Total: 3
+2019-12-24 21:57:44,952 450    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@74ad1f1f]
+2019-12-24 21:57:44,952 450    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@74ad1f1f]
+2019-12-24 21:57:44,952 450    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1957502751 to pool.
+2019-12-24 21:58:02,308 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-12-24 21:58:02,366 58     [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2019-12-24 21:58:02,367 59     [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2019-12-24 21:58:02,367 59     [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2019-12-24 21:58:02,367 59     [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2019-12-24 21:58:02,368 60     [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2019-12-24 21:58:02,368 60     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiongben/IdeaProjects/java_learn/target/classes/com/xiongben/domain
+2019-12-24 21:58:02,368 60     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiongben/IdeaProjects/java_learn/target/classes/com/xiongben/domain
+2019-12-24 21:58:02,398 90     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Account.class
+2019-12-24 21:58:02,398 90     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: AccountUser.class
+2019-12-24 21:58:02,398 90     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: QueryVo.class
+2019-12-24 21:58:02,399 91     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: User.class
+2019-12-24 21:58:02,399 91     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/Users/xiongben/IdeaProjects/java_learn/target/classes/com/xiongben/domain
+2019-12-24 21:58:02,399 91     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiongben/IdeaProjects/java_learn/target/classes/com/xiongben/domain/Account.class
+2019-12-24 21:58:02,399 91     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiongben/IdeaProjects/java_learn/target/classes/com/xiongben/domain/Account.class
+2019-12-24 21:58:02,399 91     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 F
+2019-12-24 21:58:02,400 92     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiongben/IdeaProjects/java_learn/target/classes/com/xiongben/domain/AccountUser.class
+2019-12-24 21:58:02,400 92     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiongben/IdeaProjects/java_learn/target/classes/com/xiongben/domain/AccountUser.class
+2019-12-24 21:58:02,400 92     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 .
+2019-12-24 21:58:02,401 93     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiongben/IdeaProjects/java_learn/target/classes/com/xiongben/domain/QueryVo.class
+2019-12-24 21:58:02,401 93     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiongben/IdeaProjects/java_learn/target/classes/com/xiongben/domain/QueryVo.class
+2019-12-24 21:58:02,401 93     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 %
+2019-12-24 21:58:02,401 93     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiongben/IdeaProjects/java_learn/target/classes/com/xiongben/domain/User.class
+2019-12-24 21:58:02,401 93     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiongben/IdeaProjects/java_learn/target/classes/com/xiongben/domain/User.class
+2019-12-24 21:58:02,402 94     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 [
+2019-12-24 21:58:02,402 94     [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.xiongben.domain.Account matches criteria [is assignable to Object]
+2019-12-24 21:58:02,402 94     [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.xiongben.domain.AccountUser matches criteria [is assignable to Object]
+2019-12-24 21:58:02,402 94     [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.xiongben.domain.QueryVo matches criteria [is assignable to Object]
+2019-12-24 21:58:02,403 95     [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.xiongben.domain.User matches criteria [is assignable to Object]
+2019-12-24 21:58:02,424 116    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-12-24 21:58:02,424 116    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-12-24 21:58:02,424 116    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-12-24 21:58:02,424 116    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-12-24 21:58:02,426 118    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiongben/IdeaProjects/java_learn/target/classes/com/xiongben/dao
+2019-12-24 21:58:02,426 118    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiongben/IdeaProjects/java_learn/target/classes/com/xiongben/dao
+2019-12-24 21:58:02,427 119    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IAccountDao.class
+2019-12-24 21:58:02,427 119    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IAccountDao.xml
+2019-12-24 21:58:02,427 119    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: impl
+2019-12-24 21:58:02,427 119    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.class
+2019-12-24 21:58:02,427 119    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.xml
+2019-12-24 21:58:02,427 119    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/Users/xiongben/IdeaProjects/java_learn/target/classes/com/xiongben/dao
+2019-12-24 21:58:02,428 120    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiongben/IdeaProjects/java_learn/target/classes/com/xiongben/dao/IAccountDao.class
+2019-12-24 21:58:02,428 120    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiongben/IdeaProjects/java_learn/target/classes/com/xiongben/dao/IAccountDao.class
+2019-12-24 21:58:02,428 120    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 
+2019-12-24 21:58:02,428 120    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiongben/IdeaProjects/java_learn/target/classes/com/xiongben/dao/IAccountDao.xml
+2019-12-24 21:58:02,428 120    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiongben/IdeaProjects/java_learn/target/classes/com/xiongben/dao/IAccountDao.xml
+2019-12-24 21:58:02,428 120    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2019-12-24 21:58:02,429 121    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiongben/IdeaProjects/java_learn/target/classes/com/xiongben/dao/impl
+2019-12-24 21:58:02,429 121    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiongben/IdeaProjects/java_learn/target/classes/com/xiongben/dao/impl
+2019-12-24 21:58:02,429 121    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: UserDaoImpl.class
+2019-12-24 21:58:02,429 121    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/Users/xiongben/IdeaProjects/java_learn/target/classes/com/xiongben/dao/impl
+2019-12-24 21:58:02,429 121    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiongben/IdeaProjects/java_learn/target/classes/com/xiongben/dao/impl/UserDaoImpl.class
+2019-12-24 21:58:02,430 122    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiongben/IdeaProjects/java_learn/target/classes/com/xiongben/dao/impl/UserDaoImpl.class
+2019-12-24 21:58:02,430 122    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 4
+2019-12-24 21:58:02,430 122    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiongben/IdeaProjects/java_learn/target/classes/com/xiongben/dao/IUserDao.class
+2019-12-24 21:58:02,430 122    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiongben/IdeaProjects/java_learn/target/classes/com/xiongben/dao/IUserDao.class
+2019-12-24 21:58:02,430 122    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1    findAll ()Ljava/util/List; 	Signature .()Ljava/util/List<Lcom/xiongben/domain/User;>; saveUser (Lcom/xiongben/domain/User;)V 
+2019-12-24 21:58:02,430 122    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiongben/IdeaProjects/java_learn/target/classes/com/xiongben/dao/IUserDao.xml
+2019-12-24 21:58:02,430 122    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiongben/IdeaProjects/java_learn/target/classes/com/xiongben/dao/IUserDao.xml
+2019-12-24 21:58:02,431 123    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2019-12-24 21:58:02,431 123    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.xiongben.dao.IAccountDao matches criteria [is assignable to Object]
+2019-12-24 21:58:02,431 123    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.xiongben.dao.impl.UserDaoImpl matches criteria [is assignable to Object]
+2019-12-24 21:58:02,431 123    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.xiongben.dao.IUserDao matches criteria [is assignable to Object]
+2019-12-24 21:58:02,515 207    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-12-24 21:58:02,715 407    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1957502751.
+2019-12-24 21:58:02,716 408    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@74ad1f1f]
+2019-12-24 21:58:02,718 410    [           main] DEBUG ongben.dao.IAccountDao.findAll  - ==>  Preparing: select u.*,a.id as aid,a.uid,a.money from account a,user u where u.id = a.uid 
+2019-12-24 21:58:02,745 437    [           main] DEBUG ongben.dao.IAccountDao.findAll  - ==> Parameters: 
+2019-12-24 21:58:02,761 453    [           main] DEBUG xiongben.dao.IUserDao.findById  - ====>  Preparing: select * from user where id = ? 
+2019-12-24 21:58:02,761 453    [           main] DEBUG xiongben.dao.IUserDao.findById  - ====> Parameters: 41(Integer)
+2019-12-24 21:58:02,769 461    [           main] DEBUG xiongben.dao.IUserDao.findById  - <====      Total: 1
+2019-12-24 21:58:02,769 461    [           main] DEBUG xiongben.dao.IUserDao.findById  - ====>  Preparing: select * from user where id = ? 
+2019-12-24 21:58:02,769 461    [           main] DEBUG xiongben.dao.IUserDao.findById  - ====> Parameters: 45(Integer)
+2019-12-24 21:58:02,770 462    [           main] DEBUG xiongben.dao.IUserDao.findById  - <====      Total: 1
+2019-12-24 21:58:02,771 463    [           main] DEBUG ongben.dao.IAccountDao.findAll  - <==      Total: 3
+2019-12-24 21:58:02,774 466    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@74ad1f1f]
+2019-12-24 21:58:02,774 466    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@74ad1f1f]
+2019-12-24 21:58:02,775 467    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1957502751 to pool.

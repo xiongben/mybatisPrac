@@ -7,12 +7,7 @@
        <id property="id" column="aid"></id>
         <result property="uid" column="uid"></result>
         <result property="money" column="money"></result>
-        <association property="user" column="uid" javaType="user">
-            <id property="id" column="id"></id>
-            <result property="username" column="username"></result>
-            <result property="address" column="address"></result>
-            <result property="sex" column="sex"></result>
-            <result property="birthday" column="birthday"></result>
+        <association property="user" column="uid" javaType="user" select="com.xiongben.dao.IUserDao.findById">
         </association>
     </resultMap>
 
